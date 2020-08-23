@@ -1,5 +1,9 @@
 # Important! Please Read
 
+## For viewing the website, please click on the link below:
+
+https://patrickpetch.github.io/zvezda/
+
 ## For updating the website, please do the following according to the local operating system:
 
 1. Window: `npm run compile`
