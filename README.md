@@ -1,4 +1,4 @@
-# Important! Please Read
+# SEDS NTU Website Repository
 
 ## For viewing the website, please click on the link below:
 
