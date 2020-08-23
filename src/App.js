@@ -1,12 +1,18 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.scss';
-import NavigationBar from './components/NavigationBar/NavigationBar ';
+import NavigationBar from './components/NavigationBar/NavigationBar.js';
+import Intro from './components/Intro/Intro.js';
+import News from './components/News/News.js';
+
 
 function App() {
   return (
+
     <div className="App">
       <NavigationBar />
+      <Intro />
+      <News />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
