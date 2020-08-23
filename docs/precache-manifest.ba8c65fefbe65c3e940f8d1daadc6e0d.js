@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5206981e2e844c288658bc2291768a3a",
+    "revision": "021070827f17c0582523f47ec0afbb6f",
     "url": "/zvezda/index.html"
   },
   {
-    "revision": "0bacdace60791eda68b6",
+    "revision": "4d59c144edcfd043a2be",
     "url": "/zvezda/static/css/main.523f09c5.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/zvezda/static/js/2.4bb0c437.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0bacdace60791eda68b6",
-    "url": "/zvezda/static/js/main.2b1d38a6.chunk.js"
+    "revision": "4d59c144edcfd043a2be",
+    "url": "/zvezda/static/js/main.b424d10b.chunk.js"
   },
   {
     "revision": "39bd6dec29269ddad41f",
