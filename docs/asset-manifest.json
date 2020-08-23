@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/zvezda/static/css/main.523f09c5.chunk.css",
-    "main.js": "/zvezda/static/js/main.9cf809e8.chunk.js",
-    "main.js.map": "/zvezda/static/js/main.9cf809e8.chunk.js.map",
+    "main.js": "/zvezda/static/js/main.2b1d38a6.chunk.js",
+    "main.js.map": "/zvezda/static/js/main.2b1d38a6.chunk.js.map",
     "runtime-main.js": "/zvezda/static/js/runtime-main.9980b697.js",
     "runtime-main.js.map": "/zvezda/static/js/runtime-main.9980b697.js.map",
     "static/js/2.4bb0c437.chunk.js": "/zvezda/static/js/2.4bb0c437.chunk.js",
     "static/js/2.4bb0c437.chunk.js.map": "/zvezda/static/js/2.4bb0c437.chunk.js.map",
     "index.html": "/zvezda/index.html",
-    "precache-manifest.118fe56c55d1105c8e87c36c7f8cfc75.js": "/zvezda/precache-manifest.118fe56c55d1105c8e87c36c7f8cfc75.js",
+    "precache-manifest.75ab24c5004ddac84f169313453ac5d7.js": "/zvezda/precache-manifest.75ab24c5004ddac84f169313453ac5d7.js",
     "service-worker.js": "/zvezda/service-worker.js",
     "static/css/main.523f09c5.chunk.css.map": "/zvezda/static/css/main.523f09c5.chunk.css.map",
     "static/js/2.4bb0c437.chunk.js.LICENSE.txt": "/zvezda/static/js/2.4bb0c437.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.9980b697.js",
     "static/js/2.4bb0c437.chunk.js",
     "static/css/main.523f09c5.chunk.css",
-    "static/js/main.9cf809e8.chunk.js"
+    "static/js/main.2b1d38a6.chunk.js"
   ]
 }
