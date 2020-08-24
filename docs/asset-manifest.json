@@ -1,26 +1,28 @@
 {
   "files": {
-    "main.css": "/zvezda/static/css/main.b34dbe38.chunk.css",
-    "main.js": "/zvezda/static/js/main.27304968.chunk.js",
-    "main.js.map": "/zvezda/static/js/main.27304968.chunk.js.map",
+    "main.css": "/zvezda/static/css/main.59440110.chunk.css",
+    "main.js": "/zvezda/static/js/main.db020279.chunk.js",
+    "main.js.map": "/zvezda/static/js/main.db020279.chunk.js.map",
     "runtime-main.js": "/zvezda/static/js/runtime-main.9980b697.js",
     "runtime-main.js.map": "/zvezda/static/js/runtime-main.9980b697.js.map",
     "static/css/2.11829350.chunk.css": "/zvezda/static/css/2.11829350.chunk.css",
-    "static/js/2.4251d4a6.chunk.js": "/zvezda/static/js/2.4251d4a6.chunk.js",
-    "static/js/2.4251d4a6.chunk.js.map": "/zvezda/static/js/2.4251d4a6.chunk.js.map",
+    "static/js/2.8bda1f67.chunk.js": "/zvezda/static/js/2.8bda1f67.chunk.js",
+    "static/js/2.8bda1f67.chunk.js.map": "/zvezda/static/js/2.8bda1f67.chunk.js.map",
     "index.html": "/zvezda/index.html",
-    "precache-manifest.4e708698dc011a038446d86103810415.js": "/zvezda/precache-manifest.4e708698dc011a038446d86103810415.js",
+    "precache-manifest.b9baefdf30d136cd524fa4a96b5cd6d8.js": "/zvezda/precache-manifest.b9baefdf30d136cd524fa4a96b5cd6d8.js",
     "service-worker.js": "/zvezda/service-worker.js",
     "static/css/2.11829350.chunk.css.map": "/zvezda/static/css/2.11829350.chunk.css.map",
-    "static/css/main.b34dbe38.chunk.css.map": "/zvezda/static/css/main.b34dbe38.chunk.css.map",
-    "static/js/2.4251d4a6.chunk.js.LICENSE.txt": "/zvezda/static/js/2.4251d4a6.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/zvezda/static/media/logo.ee7cd8ed.svg"
+    "static/css/main.59440110.chunk.css.map": "/zvezda/static/css/main.59440110.chunk.css.map",
+    "static/js/2.8bda1f67.chunk.js.LICENSE.txt": "/zvezda/static/js/2.8bda1f67.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/zvezda/static/media/logo.ee7cd8ed.svg",
+    "static/media/Intro.scss": "/zvezda/static/media/m16.f19a8fe9.jpg",
+    "static/media/seds_ntu_logo.png": "/zvezda/static/media/seds_ntu_logo.5a3c4592.png"
   },
   "entrypoints": [
     "static/js/runtime-main.9980b697.js",
     "static/css/2.11829350.chunk.css",
-    "static/js/2.4251d4a6.chunk.js",
-    "static/css/main.b34dbe38.chunk.css",
-    "static/js/main.27304968.chunk.js"
+    "static/js/2.8bda1f67.chunk.js",
+    "static/css/main.59440110.chunk.css",
+    "static/js/main.db020279.chunk.js"
   ]
 }
