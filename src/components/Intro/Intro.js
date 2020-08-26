@@ -7,6 +7,7 @@ function Intro() {
             <div>
             <h1>SEDS NTU</h1>
             <h2>Students for the Exploration and Development of Space</h2>
+            <h2>_________________</h2>
 
             <div>Nanyang Technological University, Singapore</div>
             </div>

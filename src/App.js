@@ -4,6 +4,7 @@ import './App.scss';
 import NavigationBar from './components/NavigationBar/NavigationBar.js';
 import Intro from './components/Intro/Intro.js';
 import News from './components/News/News.js';
+import About from './components/About/About.js';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <NavigationBar />
       <Intro />
       <News />
+      <About />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

@@ -7,7 +7,7 @@ function CardPiece(props) {
     return (
         <div class="card">
           <Card>
-              <Card.Img variant="top" src="holder.js/100px160" />
+              <Card.Img variant="top" src={props.pic} />
               <Card.Body>
                 <Card.Title>{props.title}</Card.Title>
                 <Card.Text>
