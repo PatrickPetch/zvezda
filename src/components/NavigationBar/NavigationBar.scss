@@ -1,0 +1,13 @@
+@import "../../utils/variables.scss";
+//@use 'variables' as v;
+
+.navigation-bar {
+  background-color: #12131c;
+}
+
+.nav-link {
+  color: $white-text;
+  &:hover {
+    color: $white-text-hover;
+  }
+}

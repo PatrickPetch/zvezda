@@ -9,9 +9,9 @@ function News() {
     return (
         <div className="news">
             <h2> News </h2>
-            <CardDeck>
+            {/* <CardDeck> */}
                 <CardPiece class="card-piece" pic={ Rover } title="Landed on Mars" textMain="The rover from NASA has landed on Mars on 24 Aug" textFooter="More Detail" />
-            </CardDeck>
+            {/* </CardDeck> */}
 
 
 
