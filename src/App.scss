@@ -1,8 +1,7 @@
-
+@import "./utils/variables.scss";
 
 .App {
-  text-align: center;
-  background-color: #282c34;
+  background-color: $bg-color;
 }
 
 .App-logo {
@@ -39,3 +38,23 @@
     transform: rotate(360deg);
   }
 }
+
+/* If the screen size is 801px wide or more, set the font-size of <div> to 80px */
+// @media screen and (min-width: 801px) {
+//   h1 {
+//     font-size: 4vw;
+//   }
+//   div {
+//     font-size: 1.5vw;
+//   }
+// }
+
+/* If the screen size is 800px wide or less, set the font-size of <div> to 30px */
+// @media screen and (max-width: 800px) {
+//   h1 {
+//     font-size: 30px;
+//   }
+//   div {
+//     font-size: 13px;
+//   }
+// }

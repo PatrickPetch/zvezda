@@ -1,10 +1,37 @@
 .intro-class {
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    @media screen and (min-width: 992px) {
-        height: 500px;
-      }
-    background-image: url(../../img/m16.jpg);
+  display: flex;
+  align-items: center;
+  background-image: url(../../img/intro_img.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top top;
+  height: 42vw;
+}
+
+.desc-container {
+  color: white;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  /* If the screen size is 801px wide or more, set the font-size of <div> to 80px */
+  @media screen and (min-width: 801px) {
+    h1 {
+      font-size: 4vw;
+    }
+    div {
+      font-size: 1.5vw;
+    }
+  }
+
+  /* If the screen size is 800px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 800px) {
+    h1 {
+      font-size: 30px;
+    }
+    div {
+      font-size: 13px;
+    }
+  }
 }

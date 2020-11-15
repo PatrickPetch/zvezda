@@ -1,18 +1,19 @@
-import React from 'react'
-import './Intro.scss'
+import React from "react";
+import "./Intro.scss";
 
 function Intro() {
-    return (
-        <div className="intro-class">
-            <div>
-            <h1>SEDS NTU</h1>
-            <h2>Students for the Exploration and Development of Space</h2>
-            <h2>_________________</h2>
+  return (
+    <div className="intro-class">
+      <div className="desc-container">
+        <h1>SEDS-NTU</h1>
+        <div>Students for the</div>
+        <div>Exploration and Development of Space</div>
+        <h2>_________________</h2>
 
-            <div>Nanyang Technological University, Singapore</div>
-            </div>
-        </div>
-    )
+        <div>Nanyang Technological University, Singapore</div>
+      </div>
+    </div>
+  );
 }
 
-export default Intro
+export default Intro;

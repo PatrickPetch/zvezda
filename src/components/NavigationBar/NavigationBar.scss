@@ -1,13 +1,19 @@
 @import "../../utils/variables.scss";
-//@use 'variables' as v;
 
 .navigation-bar {
   background-color: #12131c;
 }
 
-.nav-link {
+.nav-brand {
   color: $white-text;
-  &:hover {
-    color: $white-text-hover;
-  }
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  pointer-events: none;
+}
+
+.logo-container {
+  width: 30px;
+  height: 30px;
+  margin-right: 7px;
 }

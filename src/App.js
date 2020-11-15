@@ -10,8 +10,8 @@ function App() {
   return (
     <div className="App">
       <NavigationBar />
-      {/* <Intro />
-      <News />
+      <Intro />
+      {/*<News />
       <About /> */}
 
       {/* <header className="App-header">
