@@ -1,4 +1,19 @@
+$min-screen-width: 400px;
+$max-screen-width: 2560px;
+
 $bg-color: #1c1d29;
 
 $white-text: white;
 $white-text-hover: #b6b6b6;
+
+@function valueByRange($minVal, $maxVal) {
+  $max-screen: $max-screen-width / 1px;
+  $min-screen: $min-screen-width / 1px;
+  @return calc(
+    (
+      #{$minVal} * 1px + (#{$maxVal} - #{$minVal}) * (
+          100vw - #{$min-screen-width}
+        ) / (#{$max-screen} - #{$min-screen})
+    )
+  );
+}

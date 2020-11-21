@@ -1,3 +1,5 @@
+@import "../../utils//variables.scss";
+
 .intro-class {
   display: flex;
   align-items: center;
@@ -6,32 +8,47 @@
   background-repeat: no-repeat;
   background-position: top top;
   height: 42vw;
+
+  /* If the screen size is 890px wide or less */
+  @media screen and (max-width: 890px) {
+    height: 50vw;
+  }
 }
 
 .desc-container {
   color: white;
-  width: 40vw;
+  width: 45vw;
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
+  padding-left: 1vw;
 
-  /* If the screen size is 801px wide or more, set the font-size of <div> to 80px */
-  @media screen and (min-width: 801px) {
-    h1 {
-      font-size: 4vw;
-    }
-    div {
-      font-size: 1.5vw;
-    }
+  div {
+    font-size: valueByRange(14, 30);
   }
 
-  /* If the screen size is 800px wide or less, set the font-size of <div> to 30px */
-  @media screen and (max-width: 800px) {
-    h1 {
-      font-size: 30px;
-    }
-    div {
-      font-size: 13px;
-    }
+  h1 {
+    font-size: valueByRange(25, 60);
   }
+
+  // /* If the screen size is 801px wide or more, set the font-size of <div> to 80px */
+  // @media screen and (min-width: 891px) {
+  //   h1 {
+  //     font-size: 4vw;
+  //   }
+  //   div {
+  //     font-size: 1.6vw;
+  //   }
+  // }
+
+  // /* If the screen size is 800px wide or less, set the font-size of <div> to 30px */
+  // @media screen and (max-width: 890px) {
+  //   h1 {
+  //     font-size: 35px;
+  //   }
+  //   div {
+  //     font-size: 14px;
+  //   }
+  // }
 }
