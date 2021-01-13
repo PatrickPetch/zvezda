@@ -1,0 +1,57 @@
+@import "../../utils//variables.scss";
+
+.about-container {
+  margin-top: 30px;
+}
+
+.row-wrapper {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  /* If the screen size is 890px wide or less */
+  @media screen and (max-width: 890px) {
+    display: table;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .info-cell {
+    padding-left: 7vw;
+    padding-right: 7vw;
+
+    /* If the screen size is 890px wide or less */
+    @media screen and (max-width: 890px) {
+      padding: 0;
+      margin-top: 10px;
+      margin-bottom: 30px;
+    }
+
+    .title {
+      display: flex;
+      justify-content: start;
+      margin-bottom: 10px;
+
+      :first-child {
+        margin-right: 8px;
+      }
+      .title-text {
+        font-weight: bold;
+        font-size: 20px;
+      }
+      .icon-style {
+        font-size: 25px;
+      }
+    }
+
+    .info-wrapper {
+      word-wrap: break-word;
+      width: 25vw;
+      /* If the screen size is 890px wide or less */
+      @media screen and (max-width: 890px) {
+        width: 75vw;
+      }
+    }
+  }
+}

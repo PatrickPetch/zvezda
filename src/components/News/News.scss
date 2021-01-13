@@ -1,6 +1,22 @@
-.news {
-    padding: 0;
-    margin: 0;
-    color: #343A40;
-    // background-color: white;  
+@import "../../utils//variables.scss";
+
+.news-container {
+  margin-top: 30px;
+}
+
+.carousel-container {
+  width: 70vw;
+  margin: auto;
+  border-radius: 40px;
+  border: 8px solid #141414;
+  overflow: hidden;
+
+  /* If the screen size is 890px wide or less */
+  @media screen and (max-width: 890px) {
+    width: 90vw;
+  }
+}
+
+.carousel-item-img {
+  height: valueByRange(300, 800);
 }
